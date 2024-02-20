@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section class="header">
+        <div class="container header__container">
+          <div class="logo">Logo</div>
+          <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Portfolio</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+          </nav>
+          <nav role="navigation">
+            <div id="menuToggle">
+              <!--
+          A fake / hidden checkbox is used as click reciever,
+          so you can use the :checked selector on it.
+          -->
+              <input type="checkbox" />
+
+              <!--
+          Some spans to act as a hamburger.
+          
+          They are acting like a real hamburger,
+          not that McDonalds stuff.
+          -->
+              <span></span>
+              <span></span>
+              <span></span>
+
+              <!--
+          Too bad the menu has to be inside of the button
+          but hey, it's pure CSS magic.
+          -->
+              <ul id="menu">
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Portfolio</li></a>
+                <a href="#"><li>About us</li></a>
+                <a href="#"><li>Contact</li></a>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero__text">
+            <h2>We Create Story With Photo</h2>
+            <hr class="line1" />
+            <p class="font-p-1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies
+              amet mattis elit facilisis.
+            </p>
+            <a class="btn" href="#">
+              Work
+              <img src="./images/btn-strelka.svg" alt="rasm"
+            /></a>
+          </div>
+          <div class="hero__rasm">
+            <img src="./images/hero__rasm.png" alt="rasm" />
+          </div>
+        </div>
+        <div class="container obunachilar">
+          <span class="span-1">
+            <span>15,500++</span>
+            <p>Finished Project</p>
+          </span>
+          <span class="span-2">
+            <span>179,089,989++</span>
+            <p>Photo has Reviewed</p>
+          </span>
+          <span class="span-3">
+            <p>
+              Available <br />
+              Date
+            </p>
+          </span>
+        </div>
+      </section>
+      <section class="malumotlar">
+        <div class="container malumotlar-container">
+          <div class="malumot__rasm">
+            <img src="./images/malumot__rasm-1.png" alt="rasm" />
+            <img src="./images/malumot__rasm-2.png" alt="rasm" />
+          </div>
+          <div class="malumot__text">
+            <h2>Our Services Are Good For Any Price</h2>
+            <p class="font-p-1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus
+              sagittis, viverra cras luctus. Risus pellentesque ultricies
+              posuere posuere. Facilisi turpis consectetur eget.
+            </p>
+          </div>
+        </div>
+        <div class="container malumotlar-container-2">
+          <h1>
+            Our Satisfied <br />
+            Customer
+          </h1>
+          <div class="malumotlar-container-2__bulim">
+            <img src="./images/malum__bulim__rasm.png" alt="rasm" />
+            <div class="__bulim__text">
+              <h3>San Anderson</h3>
+              <p class="font-p-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Senectus sagittis, viverra cras luctus. Risus pellentesque
+                ultricies posuere posuere. Facilisi turpis consectetur eget.
+              </p>
+            </div>
+          </div>
+
+          <div class="malumotlar-container-2__bulim">
+            <img src="./images/malum__bulim__rasm.png" alt="rasm" />
+            <div class="__bulim__text">
+              <h3>Michele Anje</h3>
+              <p class="font-p-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Senectus sagittis, viverra cras luctus. Risus pellentesque
+                ultricies posuere posuere. Facilisi turpis consectetur eget.
+              </p>
+            </div>
+          </div>
+
+          <div class="malumotlar-container-2__bulim">
+            <img src="./images/malum__bulim__rasm.png" alt="rasm" />
+            <div class="__bulim__text">
+              <h3>Jan Doe</h3>
+              <p class="font-p-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Senectus sagittis, viverra cras luctus. Risus pellentesque
+                ultricies posuere posuere. Facilisi turpis consectetur eget.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="karusel">
+        <div class="container karusel__container">
+          <div class="karusel__text">
+            <h2>
+              Our Last <br />
+              Article
+            </h2>
+            <p class="font-p-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus
+              sagittis, viverra cras luctus. Risus pellentesque
+            </p>
+
+            <a href="#" class="btn btn-bubble">Bubble Button</a>
+          </div>
+
+          <div class="karusel__bulim">
+            <div class="karusel__qator">
+              <img
+                src="./images/karusel__qator-img.png"
+                alt="rasm"
+                width="350px"
+              />
+              <p>18 October 2021 - Miche</p>
+              <h5>
+                How to Work With Our <br />
+                Photography
+              </h5>
+              <img src="./images/read-more.png" alt="read-more" width="100px" />
+            </div>
+
+            <div class="karusel__qator">
+              <img
+                src="./images/karusel__qator-img.png"
+                alt="rasm"
+                width="350px"
+              />
+              <p>18 October 2021 - Miche</p>
+              <h5>
+                How to Work With Our <br />
+                Photography
+              </h5>
+              <img src="./images/read-more.png" alt="read-more" width="100px" />
+            </div>
+
+            <div class="karusel__qator">
+              <img
+                src="./images/karusel__qator-img.png"
+                alt="rasm"
+                width="350px"
+              />
+              <p>18 October 2021 - Miche</p>
+              <h5>
+                How to Work With Our <br />
+                Photography
+              </h5>
+              <img src="./images/read-more.png" alt="read-more" width="100px" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-container">
+        <div class="footer__logo">
+          <div class="logo2">Logo</div>
+          <div class="savollar">
+            <a class="murojat" href="#">Ready for your journey?</a>
+            <a class="btn" href="#">
+              Work
+              <img src="./images/btn-strelka.svg" alt="rasm"
+            /></a>
+          </div>
+        </div>
+        <hr />
+
+        <div class="footer__malumotlar">
+          <div class="footer__surov">
+            <h5>
+              Subscribe For Any <br />
+              Kind :
+            </h5>
+            <form action="#">
+              <input type="text" placeholder="Enter Your Email" />
+              <button type="submit">
+                <img src="./images/buttonga.svg" alt="rasm" width="40px" />
+              </button>
+            </form>
+          </div>
+
+          <div class="footer__yordam__qator">
+            <ul>
+              <h4>Photo Services</h4>
+              <li><a href="#">Border</a></li>
+              <li><a href="#">Campaign</a></li>
+              <li><a href="#">Wedding</a></li>
+              <li><a href="#">Branding</a></li>
+              <li><a href="#">Others</a></li>
+            </ul>
+          </div>
+          <div class="footer__yordam__qator">
+            <ul>
+              <h4>Menu</h4>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Work</a></li>
+            </ul>
+          </div>
+          <div class="footer__yordam__qator">
+            <ul>
+              <h4>Help</h4>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">CS</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

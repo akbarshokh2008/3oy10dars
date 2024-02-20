@@ -1,0 +1,29 @@
+.btn {
+  padding: 2rem 4.8rem;
+  background: #21dccd;
+  font-family: Poppins;
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 3.9rem;
+  color: #fff;
+  border-radius: 1rem;
+
+  @media (max-width: 765px) {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    padding: 1.2rem 2.8rem;
+  }
+
+  img {
+    padding-left: 1rem;
+  }
+}
+.btn:hover {
+  transition: 0.2s;
+  background-color: rgb(17, 155, 214);
+  border: 5px dashed #ffffff;
+
+  @media (max-width: 765px) {
+    border: 3px dashed #ffffff;
+  }
+}

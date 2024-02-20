@@ -1,0 +1,92 @@
+footer {
+  background: #2a2a2a;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10rem;
+
+  @media screen and (max-width: 765px) {
+    padding-bottom: 6rem;
+  }
+}
+
+.footer__logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 7.2rem;
+  padding-bottom: 7.2rem;
+
+  @media screen and (max-width: 765px) {
+    flex-direction: column;
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+  }
+
+  .logo2 {
+    font-family: Poppins;
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 7.2rem;
+    color: #fff;
+  }
+}
+.savollar {
+  @media screen and (max-width: 765px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.murojat {
+  font-family: Poppins;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 4.2rem;
+  color: #fff;
+  padding-right: 2rem;
+
+  @media screen and (max-width: 765px) {
+    margin-bottom: 5rem;
+  }
+}
+.footer__malumotlar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rem;
+
+  @media screen and (max-width: 765px) {
+    flex-direction: column;
+  }
+}
+.footer__surov {
+  display: flex;
+  flex-direction: column;
+
+  h5 {
+    color: #fff;
+
+    @media screen and (max-width: 765px) {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+  }
+
+  input {
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+}

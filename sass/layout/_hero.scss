@@ -1,0 +1,138 @@
+.hero {
+  background: #fff;
+}
+.hero-container {
+  padding-top: 6.5rem;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 1200px) {
+    padding-top: 3rem;
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+.hero__text {
+  width: 100%;
+  max-width: 48.5rem;
+
+  p {
+    padding-bottom: 5.6rem;
+
+    @media (max-width: 765px) {
+      padding-bottom: 4rem;
+    }
+  }
+  @media (max-width: 765px) {
+    max-width: 32.5rem;
+  }
+}
+.line1 {
+  width: 18rem;
+  border: 1px solid #000;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  @media (max-width: 765px) {
+    margin-top: 2.8rem;
+    margin-bottom: 2.8rem;
+    width: 12rem;
+  }
+}
+
+.hero__rasm {
+  @media (max-width: 765px) {
+    img {
+      width: 30rem;
+    }
+  }
+}
+
+.obunachilar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16.5rem;
+
+  @media (max-width: 765px) {
+    flex-direction: column;
+    padding-top: 10rem;
+  }
+  .span-1,
+  .span-2 {
+    width: 100%;
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 14.8rem 3rem 5rem;
+    background: #2a2a2a;
+    color: #fff;
+    border-radius: 2rem;
+
+    span {
+      font-family: Poppins;
+      font-size: 34px;
+      font-weight: 500;
+      line-height: 51px;
+
+      @media (max-width: 765px) {
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 37px;
+      }
+    }
+    @media (max-width: 765px) {
+      max-width: 21rem;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem 10.8rem 1rem 1.8rem;
+      background: #2a2a2a;
+      color: #fff;
+      border-radius: 1.4rem;
+    }
+  }
+  .span-2 {
+    width: 100%;
+    max-width: 53rem;
+
+    @media (max-width: 765px) {
+      max-width: 33rem;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem 10.8rem 1rem 1.8rem;
+      background: #2a2a2a;
+      color: #fff;
+      border-radius: 1.4rem;
+    }
+  }
+  p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #fff;
+
+    @media (max-width: 765px) {
+      font-size: 12px;
+      line-height: 19px;
+    }
+  }
+
+  .span-3 {
+    padding: 3.4rem 2.2rem;
+    background: #60c7bf;
+    border-radius: 2rem;
+
+    @media (max-width: 765px) {
+      padding: 2.4rem 1.7rem;
+    }
+  }
+  .span-1,
+  .span-2,
+  .span-3 {
+    @media screen and (max-width: 765px) {
+      margin-bottom: 3rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
